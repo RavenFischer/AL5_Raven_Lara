@@ -1,22 +1,67 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="de">
   <head>
     <meta charset="UTF-8" />
-    <meta name="viewport" content="width=<device-width>, initial-scale=1.0" />
-    <title>Document</title>
-    <link rel="stylesheet" href="css/stylesheet.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kerzenshop - Home</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
   </head>
   <body>
-    <!--Header-->
-    <nav>
-      <ul>
-        </li>
-        <li><a href="index.php">Home</a></li>
-        <li><a href="">Beratung</a></li>
-        <li><a href="">Angebot</a></li>
-        <li><a href="">Modelle</a></li>
-        <li><a href="">Kontakt</a></li>
-      </ul>
-    </nav>
+    <header>
+      <div class="logo">KerzenWelt</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">Über uns</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="hero">
+        <h1>Willkommen bei KerzenWelt</h1>
+        <p>Dein Shop für handgemachte Duftkerzen</p>
+        <a href="shop.html" class="cta">Jetzt entdecken</a>
+      </section>
+
+      <section class="angebote">
+        <h2>Unsere Angebote</h2>
+        <div class="slider">
+          <img src="kerze1.jpg" alt="Kerze 1" class="slide active" />
+          <img src="kerze2.jpg" alt="Kerze 2" class="slide" />
+          <img src="kerze3.jpg" alt="Kerze 3" class="slide" />
+          <button class="prev">&#10094;</button>
+          <button class="next">&#10095;</button>
+        </div>
+      </section>
+
+      <section class="bewertungen">
+        <h2>Was unsere Kunden sagen</h2>
+        <blockquote>
+          "Wundervolle Düfte und schnelle Lieferung!" – Lisa
+        </blockquote>
+        <blockquote>
+          "Ich liebe die Lavendelkerze, so beruhigend." – Tom
+        </blockquote>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-links">
+        <a href="#">Impressum</a>
+        <a href="#">Datenschutz</a>
+        <a href="#">AGB's</a>
+      </div>
+      <div class="contact-info">
+        <p>Email: info@kerzenwelt.ch</p>
+        <p>Adresse: Kerzenweg 7, 7000 Lichtstadt</p>
+        <div class="socials">
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+        </div>
+      </div>
+    </footer>
   </body>
 </html>

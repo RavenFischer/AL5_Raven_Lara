@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kerzenshop - Sortiment</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">KerzenWelt</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">Über uns</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="shop">
+        <h1>Unser Sortiment</h1>
+
+        <div class="filter">
+          <label for="duft-filter">Filter nach Duft:</label>
+          <select id="duft-filter">
+            <option value="alle">Alle</option>
+            <option value="lavendel">Lavendel</option>
+            <option value="vanille">Vanille</option>
+            <option value="zitronengras">Zitronengras</option>
+          </select>
+        </div>
+
+        <div class="produkt-grid">
+          <div class="produkt-card" data-duft="lavendel">
+            <img src="lavendelkerze.jpg" alt="Lavendelkerze" />
+            <h2>Lavendelkerze</h2>
+            <p>Beruhigender Duft, handgemacht</p>
+            <button>In den Warenkorb</button>
+          </div>
+
+          <div class="produkt-card" data-duft="vanille">
+            <img src="vanillekerze.jpg" alt="Vanillekerze" />
+            <h2>Vanillekerze</h2>
+            <p>Süß und warm – ideal für den Winter</p>
+            <button>In den Warenkorb</button>
+          </div>
+
+          <div class="produkt-card" data-duft="zitronengras">
+            <img src="zitronengras.jpg" alt="Zitronengraskerze" />
+            <h2>Zitronengraskerze</h2>
+            <p>Frisch und belebend</p>
+            <button>In den Warenkorb</button>
+          </div>
+        </div>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-links">
+        <a href="#">Impressum</a>
+        <a href="#">Datenschutz</a>
+        <a href="#">AGB's</a>
+      </div>
+      <div class="contact-info">
+        <p>Email: info@kerzenwelt.ch</p>
+        <p>Adresse: Kerzenweg 7, 7000 Lichtstadt</p>
+        <div class="socials">
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>

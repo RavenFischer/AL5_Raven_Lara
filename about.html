@@ -1,0 +1,75 @@
+<!DOCTYPE html>
+<html lang="de">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Kerzenshop - Über uns</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <script defer src="js/script.js"></script>
+  </head>
+  <body>
+    <header>
+      <div class="logo">KerzenWelt</div>
+      <nav>
+        <ul>
+          <li><a href="index.html">Home</a></li>
+          <li><a href="shop.html">Shop</a></li>
+          <li><a href="about.html">Über uns</a></li>
+        </ul>
+      </nav>
+    </header>
+
+    <main>
+      <section class="ueber-uns">
+        <h1>Über uns</h1>
+        <p>
+          Wir sind ein kleines, leidenschaftliches Team aus
+          Kerzenliebhaber*innen, das hochwertige und handgemachte Duftkerzen
+          herstellt. Unser Ziel ist es, mit natürlichen Düften und liebevollem
+          Design eine entspannte Atmosphäre in dein Zuhause zu bringen.
+        </p>
+      </section>
+
+      <section class="kontakt">
+        <h2>Kontaktiere uns</h2>
+        <form id="kontaktformular">
+          <label for="name">Name:</label>
+          <input type="text" id="name" name="name" required />
+
+          <label for="email">E-Mail:</label>
+          <input type="email" id="email" name="email" required />
+
+          <label for="nachricht">Nachricht:</label>
+          <textarea id="nachricht" name="nachricht" required></textarea>
+
+          <button type="submit">Absenden</button>
+        </form>
+      </section>
+
+      <section class="memory">
+        <h2>Kerzen-Memory</h2>
+        <p>Spiele und entspanne – finde die passenden Duftpaare!</p>
+        <div id="memory-spiel">
+          <!-- Spielkarten werden hier per JS generiert -->
+        </div>
+        <p id="memory-status"></p>
+      </section>
+    </main>
+
+    <footer>
+      <div class="footer-links">
+        <a href="#">Impressum</a>
+        <a href="#">Datenschutz</a>
+        <a href="#">AGB's</a>
+      </div>
+      <div class="contact-info">
+        <p>Email: info@kerzenwelt.ch</p>
+        <p>Adresse: Kerzenweg 7, 7000 Lichtstadt</p>
+        <div class="socials">
+          <a href="#">Instagram</a>
+          <a href="#">Facebook</a>
+        </div>
+      </div>
+    </footer>
+  </body>
+</html>
