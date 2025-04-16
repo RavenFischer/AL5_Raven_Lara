@@ -3,65 +3,91 @@
   <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Kerzenshop - Home</title>
+    <title>Scent & Flames</title>
     <link rel="stylesheet" href="css/style.css" />
-    <script defer src="js/script.js"></script>
   </head>
   <body>
     <header>
-      <div class="logo">KerzenWelt</div>
-      <nav>
-        <ul>
-          <li><a href="index.html">Home</a></li>
-          <li><a href="shop.html">Shop</a></li>
-          <li><a href="about.html">Über uns</a></li>
-        </ul>
+      <div class="logo">
+        <a href="index.html">
+          <img src="img/Logo_ScentAndFlame.png" alt="Logo Scent & Flames" />
+        </a>
+      </div>
+
+      <div class="search-icon-wrapper">
+        <input
+          type="text"
+          placeholder="Artikel suchen..."
+          class="search-input"
+        />
+        <div class="icons">
+          <a href="#">
+            <img src="img/Favoriten.png" alt="Favoriten" class="icon" />
+          </a>
+          <a href="#">
+            <img src="img/Warenkorb.png" alt="Warenkorb" class="icon" />
+          </a>
+          <a href="#">
+            <img src="img/Benutzer.png" alt="Benutzer" class="icon" />
+          </a>
+        </div>
+      </div>
+
+      <nav class="main-nav">
+        <a href="index.html">Home</a>
+        <a href="shop.html">Shop</a>
+        <a href="about.html">Über uns</a>
       </nav>
     </header>
-
-    <main>
-      <section class="hero">
+    <section class="hero">
+      <img
+        src="img/Übersichtsbild_Kerzen.jpg"
+        alt="Übersichtsbild Kerzen"
+        class="hero-image"
+      />
+      <div class="hero-content">
         <h1>Willkommen bei Scent & Flames</h1>
-        <p>Dein Shop für handgemachte Duftkerzen</p>
-        <a href="shop.html" class="cta">Jetzt entdecken</a>
-      </section>
-
-      <section class="angebote">
-        <h2>Unsere Angebote</h2>
-        <div class="slider">
-          <img src="kerze1.jpg" alt="Kerze 1" class="slide active" />
-          <img src="kerze2.jpg" alt="Kerze 2" class="slide" />
-          <img src="kerze3.jpg" alt="Kerze 3" class="slide" />
-          <button class="prev">&#10094;</button>
-          <button class="next">&#10095;</button>
-        </div>
-      </section>
-
-      <section class="bewertungen">
-        <h2>Was unsere Kunden sagen</h2>
-        <blockquote>
-          "Wundervolle Düfte und schnelle Lieferung!" – Lisa
-        </blockquote>
-        <blockquote>
-          "Ich liebe die Lavendelkerze, so beruhigend." – Tom
-        </blockquote>
-      </section>
-    </main>
-
-    <footer>
-      <div class="footer-links">
-        <a href="#">Impressum</a>
-        <a href="#">Datenschutz</a>
-        <a href="#">AGB's</a>
+        <p>
+          Entdecke handgemachte Kerzen mit einzigartigen Düften und stilvollem
+          Design <br />
+          – perfekt für jede Stimmung und jeden Raum.
+        </p>
+        <a href="shop.html" class="hero-button">Jetzt entdecken!</a>
       </div>
-      <div class="contact-info">
-        <p>Email: info@kerzenwelt.ch</p>
-        <p>Adresse: Kerzenweg 7, 7000 Lichtstadt</p>
-        <div class="socials">
-          <a href="#">Instagram</a>
-          <a href="#">Facebook</a>
+    </section>
+    <section class="aktionen">
+      <h2>Aktionen & Neuheiten</h2>
+      <div class="produkt-grid">
+        <div class="produkt-card">
+          <span class="badge neu">Neu</span>
+          <img src="img/Teelicht_Lavendel.jpg" alt="Neu: Teelicht Lavendel" />
+          <p>Produktname</p>
+        </div>
+        <div class="produkt-card">
+          <span class="badge neu">Neu</span>
+          <img
+            src="img/Dekorationskerze_Orchidee.jpg"
+            alt="Neu: Dekorationskerze Orchidee"
+          />
+          <p>Produktname</p>
+        </div>
+        <div class="produkt-card">
+          <span class="badge aktion">Aktion</span>
+          <img
+            src="img/Spezialkerze_Kokos_Vanille.jpg"
+            alt="Aktion: Spezialkerze Kokos Vanille"
+          />
+          <p>Produktname</p>
+        </div>
+        <div class="produkt-card">
+          <span class="badge aktion">Aktion</span>
+          <img
+            src="img/Kerze_im_Glas_Spiced_Orange.jpg"
+            alt="Aktion: Kerze im Glas Spiced Orange"
+          />
+          <p>Produktname</p>
         </div>
       </div>
-    </footer>
+    </section>
   </body>
 </html>
