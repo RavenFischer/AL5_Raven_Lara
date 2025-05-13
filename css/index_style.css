@@ -113,3 +113,25 @@
 .badge.aktion {
   background-color: red;
 }
+
+/* Kundenbewertungen */
+.kundenbewertungen {
+  text-align: center;
+  padding: 2rem 2rem 1rem 2rem;
+  border-top: 2px solid #cccccc;
+  border-bottom: 2px solid #cccccc;
+}
+
+.kundenbewertungen h2 {
+  font-size: 1.4rem;
+  color: #333333;
+  margin-bottom: 1rem;
+}
+
+.kundenliste {
+  display: flex;
+  flex-direction: column;
+  gap: 0.3rem;
+  color: #555555;
+  font-size: 0.95rem;
+}
